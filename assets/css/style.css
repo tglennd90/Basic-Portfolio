@@ -1,4 +1,56 @@
-/* Body Background */
 body {
-    background-image: url("/assets/images/brickwall.png");
+    
+    background-image: url("C:/Users/tgd90/Desktop/Basic-Portfolio/assets/images/brickwall/brickwall_@2X.png");
+    
+}
+
+footer {
+
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: xx-small;
+    color: white;
+    border-top: 5% #4aaaa5;
+
+}
+
+.header {
+
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    border: 1px solid #cccccc;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+}
+
+.content {
+
+    width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    height: auto;
+    margin: 20px auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.headerlinks {
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: right;
+    font-size: 14;
+    margin-right: 285px;
+
+}
+
+h1 {
+
+    text-align: center;
+    margin-right: 775px;
+    background-color: teal;
+    
+
 }
