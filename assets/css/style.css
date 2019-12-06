@@ -1,7 +1,18 @@
+html {
+
+    height: 100%;
+
+}
+
 body {
     
     background-image: url("C:/Users/tgd90/Desktop/Basic-Portfolio/assets/images/brickwall/brickwall_@2X.png");
-    
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
 }
 
 footer {
@@ -9,20 +20,35 @@ footer {
     background-color: #666666;
     width: 100%;
     height: 50px;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    margin-top: auto;
+    position: relative;
+
+}
+
+footer p {
+
+    position: absolute;
+    top: 60%;
+    width: 100%;
     text-align: center;
     font-size: xx-small;
-    color: white;
-    border-top: 5% #4aaaa5;
 
 }
 
 .header {
 
     background: #ffffff;
-    width: 100%;
-    height: auto;
-    border: 1px solid #cccccc;
     font-family: 'Georgia', Times, "Times New Roman", serif;
+
+}
+
+header::after {
+
+    content: '';
+    display: table;
+    clear: both;
 
 }
 
@@ -37,20 +63,52 @@ footer {
 
 }
 
+h2 {
+
+    margin-left: 20px;
+    color: teal;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+}
+
 .headerlinks {
 
     font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: right;
-    font-size: 14;
-    margin-right: 285px;
+    width: 80%;
+    margin: 0 auto;
 
 }
 
 h1 {
 
-    text-align: center;
-    margin-right: 775px;
+    float: left;
+    margin-left: 85px;
+    background-clip: content-box;
     background-color: teal;
     
 
+}
+
+nav {
+
+    float: right;
+
+}
+
+nav ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+
+    float: left;
+    padding-top: 30px;
+    margin-left: 0px;
+    margin-right: 90px;
+    align-items: right;
+    
 }
