@@ -83,10 +83,11 @@ h1 {
 
     float: left;
     margin-left: 85px;
-    background-clip: content-box;
     background-color: teal;
+    margin-bottom: 0px;
+    color: white;
+    background-size: 100px;
     
-
 }
 
 nav {
@@ -128,6 +129,12 @@ hr {
 .submitbutton {
 
     background-color: #4aaaa5;
-    color: black;
-
+    color: white;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    
 }
