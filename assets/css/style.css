@@ -34,6 +34,8 @@ footer p {
     width: 100%;
     text-align: center;
     font-size: xx-small;
+    color: #ffffff;
+    font-weight: 500;
 
 }
 
@@ -41,7 +43,8 @@ footer p {
 
     background: #ffffff;
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    
+    margin-left: 270px;
+
 }
 
 header::after {
@@ -163,7 +166,7 @@ h1 {
 
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
-    margin-left: 85px;
+    margin-left: 25px;
     background-color: teal;
     margin-bottom: 0px;
     color: white;
