@@ -41,8 +41,7 @@ footer p {
 
     background: #ffffff;
     font-family: 'Georgia', Times, "Times New Roman", serif;
-    text-align: center;
-
+    
 }
 
 header::after {
@@ -88,6 +87,13 @@ header::after {
     transition: .5s ease;
     backface-visibility: hidden;
     
+}
+
+.flag:hover {
+
+    width: 300px;
+    height: 300px;
+    cursor: none;
 
 }
 
@@ -161,26 +167,24 @@ h1 {
     background-color: teal;
     margin-bottom: 0px;
     color: white;
-    background-size: 100px;
-    
+    border: teal;
+        
 }
 
 nav ul {
 
     list-style: none;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    margin-right: 0;
+    margin-bottom: 0;
     
 }
 
 nav li {
 
     float: right;
-    padding-top: 30px;
-    margin-left: 0px;
-    margin-right: 15px;
-    align-items: right;
-    
+    margin-right: 50px;
+    align-content: space-around;
+
 }
 
 nav ul li a {
@@ -189,8 +193,22 @@ nav ul li a {
     border-style: solid;
     border-width: 0px 2px 0px 0px;
     border-color: gray;
-    padding-right: 10px;
+    padding-right: 40px;
     opacity: 0.7;
+    display: block;
+    background: white;
+    float: right;
+    position: sticky;
+    cursor: pointer;
+
+}
+
+a:hover {
+
+    cursor: pointer;
+    color: teal;
+    font-weight: 600;
+    font-size: 25px;
 
 }
 
@@ -217,6 +235,7 @@ hr {
     display: inline-block;
     font-size: 20px;
     cursor: crosshair;
+
 }
 
 .ptitle {
@@ -231,6 +250,7 @@ hr {
     width: 150px;
     height: 150px;
     margin: 10px 10px 0px 10px;
+
 }
 
 p {
@@ -238,5 +258,13 @@ p {
     color: #777777;
     margin-left: 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+p:hover {
+
+    background-color: black;
+    font-weight: 600;
+    cursor: none;
 
 }
